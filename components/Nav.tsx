@@ -8,7 +8,7 @@ export default function Nav() {
       {/* Blur backdrop */}
       <div className="absolute inset-0 bg-[#080808]/80 backdrop-blur-md border-b border-[#1e1e1e]" />
 
-      <div className="relative max-w-4xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-4">
+      <div className="relative max-w-5xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-4">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group shrink-0">
           <div className="w-5 h-5 rounded-full bg-[#F0A500] group-hover:shadow-[0_0_10px_rgba(240,165,0,0.5)] transition-shadow duration-300 shrink-0" />
