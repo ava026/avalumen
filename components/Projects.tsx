@@ -50,6 +50,7 @@ export default function Projects() {
               href={project.url}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={`Visit ${project.name} — ${project.tag}`}
               className="group relative p-6 sm:p-8 rounded-2xl border border-[#1e1e1e] bg-[#111111]
                 hover:border-[#2e2e2e] hover:bg-[#131313] transition-all duration-300 overflow-hidden block"
             >
