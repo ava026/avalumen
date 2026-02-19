@@ -1,6 +1,5 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
-import CurrentlyBar from "@/components/CurrentlyBar";
 import Projects from "@/components/Projects";
 import About from "@/components/About";
 import Footer from "@/components/Footer";
@@ -12,7 +11,6 @@ export default function Home() {
       <JsonLd />
       <Nav />
       <Hero />
-      <CurrentlyBar />
       <Projects />
       <About />
       <Footer />
